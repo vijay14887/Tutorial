@@ -1,0 +1,14 @@
+			---------Errors---------
+
+1. 
+
+Err	-  	"RNSScreen" was not found in the UIManager.
+
+Fix	-        npm install react-native-reanimated react-native-gesture-handler react-native-screens 		 react-native-safe-area-context @react-native-community/masked-view
+
+
+2. 
+Err	-	react-native-gesture-handler module was not found. Make sure you're running your app on 		the native platform and your code is linked properly (cd ios && pod install && cd ..).
+
+Fix	-	npm install react-native-gesture-handler and react-native link react-native-gesture-		handler
+
